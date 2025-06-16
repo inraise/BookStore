@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link href="../style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav>
+        <a class="icon" href="../index.html"></a>
+        <div class="search_box">
+            <img class="search_icon" src="../images/search.png">
+            <input class="search" type="text" placeholder="Поиск">
+        </div>
+
+        <div class="block">
+            <img class="acc" src="../images/Account.png">
+            <img class="fav" src="../images/Favorite.png">
+            <a href="../basket/basket.html" style="margin: 0;"><img class="add" src="../images/add.png"></a>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="sort">
+        <h2 class="sort_title">Корзина</h2>
+    </div>
+    
+    <div class="basket_block">
+        <div id="card_list_items">
+            <div class="book">
+                <a href="../item/item2.html" class="book_img"><img src="../images/2.webp"></a>
+                <div class="book_data">
+                    <h5 class="book_name">Беня Крик</h5>
+                    <p class="book_p">Исаак Бабель</p>
+                    <div class="prices">
+                        <h6 class="price">₽ 2699.99</h6>
+                        <h6 class="sale">₽ 2999.99</h6>
+                    </div>
+                    <img class="add_book" src="../images/number.png">
+                </div>
+            </div>
+
+            <div class="book">
+                <a href="../item/item4.html" class="book_img"><img src="../images/4.webp"></a>
+                <div class="book_data">
+                    <h5 class="book_name">Сказы</h5>
+                    <p class="book_p">Павел Бажов</p>
+                    <div class="prices">
+                        <h6 class="price">₽ 1099.99</h6>
+                        <h6 class="sale">₽ 1299.99</h6>
+                    </div>
+                    <img class="add_book" src="../images/number.png">
+                </div>
+            </div>
+
+            <div class="book">
+                <a href="../item/item8.html" class="book_img"><img src="../images/8.webp"></a>
+                <div class="book_data">
+                    <h5 class="book_name">Ученик воина</h5>
+                    <p class="book_p">Лоис Макмастер Буджолд</p>
+                    <div class="prices">
+                        <h6 class="price">₽ 99.99</h6>
+                        <h6 class="sale">₽ 199.99</h6>
+                    </div>
+                    <img class="add_book" src="../images/number.png">
+                </div>
+            </div>
+        </div>
+
+        <div style="width: 600px;">
+            <h2 class="sort_title">Также рекомендуем:</h2>
+            <div class="book" style="margin-left: 0;">
+                <a href="../item/item7.html" class="book_img"><img src="../images/7.webp"></a>
+                <div class="book_data">
+                    <h5 class="book_name">Записки о<br>Кошачьем городе</h5>
+                    <p class="book_p">Лао Шэ</p>
+                    <div class="prices" style="margin-top: -20px;">
+                        <h6 class="price">₽ 3599.99</h6>
+                        <h6 class="sale">₽ 3999.99</h6>
+                    </div>
+                    <a id="add" style="margin: 0;"><img class="add_book" src="../images/addbook.png"></a>
+                </div>
+            </div>
+
+            <h2 class="sort_title">Итог:</h2>
+            <h1>Сумма: ₽ 3899,97......................................Количество: 3</h1>
+
+            <img class="topay" src="../images/topay.png">
+        </div>
+    </div>
+</main>
+<footer></footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav>
+        <a class="icon" href="index.html"></a>
+
+        <div class="block">
+            
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="regist">
+        <h1 style="margin-top: 50px;">Регистрация</h1>
+        <input class="search" type="text" placeholder="Имя" maxlength="30" id="name">
+        <input class="search" type="text" placeholder="Фамилия" maxlength="30" id="subname">
+        <input class="search" type="email" pattern="**/^[a-zA-Z0-9.!#$%&'*+/=?^_{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/**" placeholder="Email" maxlength="40" id="email">
+        <input class="search" type="password" placeholder="Пароль" maxlength="20" minlength="10" id="password">
+        <div>
+            <div style="display: flex; align-items: center; width: 400px; justify-content: space-between;">
+                <p>Хочу получать уведомления о заказах на почту</p>
+                <input style="width: 30px;" class="search" type="checkbox">
+            </div>
+            <div style="display: flex; align-items: center; width: 400px; justify-content: space-between;">
+                <p>Хочу получать уведомления об акциях на почту</p>
+                <input style="width: 30px;" class="search" type="checkbox">
+            </div>
+        </div>
+        
+        <button class="send" id="send">
+            <h5>Отправить</h5>
+        </button>
+    </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
